@@ -19,5 +19,6 @@ Version 0.1.0
 $ git clone https://github.com/nataliabarabanshchikova/simple_http_api.git
 $ cd simple_http_api
 $ docker build -t nataliabarabanshchikova/http_api .
-$ docker run -p 8080:8000 nataliabarabanshchikova/http_api
+$ docker run -d -p 8080:8000 nataliabarabanshchikova/http_api
 ```
+* Open ` http://localhost:8080/notes/` in your browser to check that web service run successful
